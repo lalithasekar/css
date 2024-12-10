@@ -1,0 +1,291 @@
+*
+{
+    margin: 0px;
+    padding:0px;
+}
+#head
+{
+    margin-top: 40px;
+}
+
+#div1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: -30px;
+   }
+
+#btn1
+{
+   
+    height: auto;
+    width: 180px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(194, 46, 194);
+    color: white;
+    font-size: large;
+    font-weight:900;
+}
+#btn1:hover
+{
+    background-color:rgb(151, 90, 151) ;
+}
+#bg
+{
+    position: relative;
+}
+.img1
+{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.text
+{
+    position: relative; 
+    z-index: 2;
+    padding: 120px;
+   
+}
+#btn2
+{
+    height: 50px;
+    width: 340px;
+    border-radius: 40px;
+    border:none;
+    background-color: rgb(194, 46, 194); 
+    color: white;
+    font-size: large;
+    font-weight:900;
+}
+#btn2:hover
+{
+    background-color:rgb(136, 61, 136); 
+}
+.text2
+{
+    
+    margin-top: 340px;
+    margin-left: 470px;
+}
+#div2
+{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#btn3
+{
+    margin-left: 620px;
+    height: 40px;
+    width: 280px;
+    border-radius: 40px;
+    border: none;
+    background-color:rgb(194, 46, 194); 
+    color: white;
+    font-size: large;
+    font-weight:900;
+}
+#btn3:hover
+{
+    background-color:rgb(136, 61, 136); 
+}
+.text3
+{
+    
+    margin-top: 80px;
+    margin-left: 160px;
+    text-align: center;
+   
+}
+#final
+{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+}
+.imge1
+{
+    background-color: rgb(194, 46, 194); 
+    height: 500px;
+    width: 400px;
+}
+.imge2
+{
+    background-color: aqua;
+    height: 500px;
+    width: 400px;
+}
+.imge1 img
+{
+    height: 250px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.imge2 img
+{
+    height: 250px;
+    width: 250px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.text23
+{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+.text24
+{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+}
+#btn4
+{
+    margin-top: 60px;
+    height: 40px;
+    width: 320px;
+    margin-left: 530px;
+    background-color: rgb(194, 46, 194); 
+    border-radius: 40px;
+    border: none;
+    font-weight:900;
+    color: white;
+   
+}
+#btn4:hover
+{
+    background-color:rgb(136, 61, 136); 
+}
+#subscription
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+}
+#btn56
+{
+    background-color: rgb(194, 46, 194); 
+    border-radius: 40px;
+    border: none;
+    height: 40px;
+    width: 320px;
+    color: white;
+    font-weight:900;
+}
+#btn56:hover
+{
+    background-color:rgb(136, 61, 136); 
+}
+.strt
+{
+    margin-top: 200px;
+    margin-left: 200px;
+    text-align: center;
+}
+
+#trial
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} 
+
+
+.card {
+    width: 220px;              
+    height: 380px;             
+    border: 2px solid black;     
+    display: flex;
+    flex-direction: column;   
+    
+}
+
+.top {
+   
+    background-color:white;
+    color: rgb(238, 27, 179); 
+    font-weight: bolder; 
+    font-size: xx-large;/* Set the background color for the top section */              /* Set the text color for the top section */
+    flex: 1;                    /* Make the top section take equal space */
+    display: flex;              /* Use flexbox to center text vertically */
+    align-items: center;        /* Center align items vertically */
+    justify-content: center;
+    height: 10px;   /* Center align items horizontally */
+    width: 220px;    /* Center align items horizontally */
+}
+
+.card-body {
+    background-color: #5223a3;  /* Set the background color for the bottom section */
+    color: white;   
+    font-size: xx-large;    
+    font-weight: bolder;        /* Set the text color for the bottom section */
+    flex: 1;                    /* Make the bottom section take equal space */
+    display: flex;              /* Use flexbox to center text vertically */
+    align-items: center;        /* Center align items vertically */
+    justify-content: center; 
+    height: 10px;   /* Center align items horizontally */
+    width: 220px;
+}
+
+.card1 {
+    width: 220px;              
+    height: 380px;             
+    border: 2px solid black;     
+    display: flex;
+    flex-direction: column;   
+    
+}
+
+.top1 {
+   
+    background-color:white;
+    color: rgb(238, 27, 179); 
+    font-weight: bolder; 
+    font-size: xx-large;/* Set the background color for the top section */              /* Set the text color for the top section */
+    flex: 1;                    /* Make the top section take equal space */
+    display: flex;              /* Use flexbox to center text vertically */
+    align-items: center;        /* Center align items vertically */
+    justify-content: center;
+    height: 10px;   /* Center align items horizontally */
+    width: 220px;    /* Center align items horizontally */
+}
+
+.card-body1 {
+    background-color: #5223a3;  /* Set the background color for the bottom section */
+    color: white;   
+    font-size: xx-large;    
+    font-weight: bolder;        /* Set the text color for the bottom section */
+    flex: 1;                    /* Make the bottom section take equal space */
+    display: flex;              /* Use flexbox to center text vertically */
+    align-items: center;        /* Center align items vertically */
+    justify-content: center; 
+    height: 10px;   /* Center align items horizontally */
+    width: 220px;
+}
+.btnv
+{
+    margin-top: 60px;
+    height: 40px;
+    width: 320px;
+    margin-left: 530px;
+    background-color: rgb(194, 46, 194); 
+    border-radius: 40px;
+    border: none; 
+    color: white;
+    font-weight:900;
+}
+.btnv:hover
+{
+    background-color:rgb(136, 61, 136); 
+}
